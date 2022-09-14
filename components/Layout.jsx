@@ -3,11 +3,11 @@ import Navbar from "./Navbar";
 import { Container } from "@nextui-org/react";
 import Footer from "./Footer";
 
-export default function Layout({ children, title }) {
+export default function Layout({ children }) {
   return (
     <Container>
       <Head>
-        <title>{title}</title>
+        <title>Ariel Martinez | Portfolio</title>
       </Head>
       <Navbar />
       <main>{children}</main>

@@ -1,9 +1,13 @@
 import { Text } from "@nextui-org/react";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <header className="flex flex-col gap-10 text-center items-center my-32">
+      <Head>
+        <title>Ariel Martinez | Web Developer</title>
+      </Head>
       <Text
         css={{
           textGradient: "45deg, $blue600 -20%, $pink200 100%",
